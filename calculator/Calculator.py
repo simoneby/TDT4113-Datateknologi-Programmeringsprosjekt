@@ -116,22 +116,3 @@ class Calculator:
 
 
 
-
-
-
-
-
-
-
-calc = Calculator()
-
-
-
-
-print(calc.normal_to_RPN(calc.text_parser("neg exp (1 - (neg 2))")).get_items())
-
-print("answer is: " + str(calc.calculate_RPN()))
-
-
-
-
